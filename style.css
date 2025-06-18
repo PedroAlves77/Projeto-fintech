@@ -1,0 +1,113 @@
+:root {
+    --cor-principal: #DAD7CD;
+    --cor-secundaria: #606c37;
+    --cor-reserva: #af7a48;
+    --color: #ffffff;
+    --cor-alternativa: #606C38;
+}
+
+
+/*Layout
+----------------------*/
+html,
+body {
+    line-height: 1.8em;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Formatação Geral
+---------------------*/
+.navbar {
+    background-color: #30A84A;
+}
+
+.navbar h3 {
+    color: #ffffff;
+}
+
+.anuncio{
+    margin-top: 58px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #BFE4C0;
+    width: auto;
+    height: 40px;
+    color: #5D592B;
+}
+
+#principal h3{
+    text-align: center;
+}
+.investimentos{
+    background-color: #A5E86A;
+}
+
+.gastos{
+    text-align: justify;
+    background-color: #A5E86A;
+}
+
+.saldo{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    background-color: #A5E86A;
+}
+
+.saldo li {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/******media querie*********/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    p {
+        font-size: 1.1em;
+    }
+
+    #home {
+        padding-top: 20px;
+        margin-top: 100px;
+    }
+
+    .painel {
+        font-size: 0.9em;
+    }
+
+    .painel img {
+        width: 350px;
+        height: 300px;
+    }
+
+    .atendimento h {
+        margin-left: 40px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}
